@@ -12,3 +12,9 @@ dist
 
 # ignore all the rest
 .gitignore
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+
+# folder that are not needed to work in the container
+scripts
