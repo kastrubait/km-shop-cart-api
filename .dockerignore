@@ -1,0 +1,20 @@
+# node_modules will be installed in docker and redundant for docker image
+node_modules
+
+# tests are redundant in production
+test
+
+# folder with build redundant in production
+dist
+
+# Git history also is not needed in production
+.git
+
+# ignore all the rest
+.gitignore
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+
+# folder that are not needed to work in the container
+scripts
